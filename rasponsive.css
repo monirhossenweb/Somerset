@@ -1,0 +1,148 @@
+@media(max-width: 1440px){}
+@media(max-width: 1366px){}
+@media(max-width: 1100px){}
+@media(max-width: 1080px){
+	.navbar-nav{
+		gap:25px;
+	}
+}
+@media(max-width: 1024px){}
+@media(max-width: 991px){
+
+    .navbar-toggler {
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid gray;
+}
+   .offcanvas-header{
+		background-color: #bfbf8e;
+	}
+
+
+    .header-logo-section{
+    	padding-bottom: 10px;
+    }
+    .main-header-section{
+    	padding-bottom: 15px;
+    }
+	.header-logo-section .logo{
+		display: none;
+	}
+	.mobile-logo{
+		display: block;
+	}
+
+	.navbar-light .navbar-nav .nav-link{
+		text-align: left;
+	}
+	.navbar-nav{
+		gap:15px;
+	}
+	.mySwiper .swiper-slide-active{
+		width: 55% !important;
+	}
+	.footar-logo ul li {
+    padding: 0px 15px 0px 0px;
+}
+  .company-logo {
+    width: 32%;
+   }
+   .footer-contact {
+    width: 20%;
+   }
+   .footer-about {
+    width: 23%;
+}
+}
+
+@media(max-width: 800px){
+
+	.container{
+		max-width: 800px !important;
+	}
+	.discover{
+		gap:10px;
+	}
+	.discover-box{
+		width: 32%;
+	}
+}
+
+@media(min-width: 768px){
+
+	.container{
+		max-width: 990px !important;
+	}
+}
+
+
+@media(max-width: 767px){
+.swiper-wrapper {
+    position: relative;
+    width: 80%;
+}
+	.discover{
+		flex-direction: column;
+	}
+	.discover-box{
+		width: 100%;
+	}
+	.discover-box-one h4{
+		padding-top: 60px;
+	}
+	.discover-box:nth-child(2){
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+@media(min-width: 738px){
+	.footar-logo {
+    width: 25%;
+}
+	.company-logo {
+    width: 23%;
+}
+   .footer-contact {
+    width: 20%;
+}
+.footer-about {
+    width: 20%;
+    padding-left: 0px;
+}
+
+
+
+}
+
+
+@media(max-width: 575px){
+     .banner-image-section{
+     	height: 300px;
+     }
+     .whats-on h3 {
+    font-size: 40px;
+}
+   .discover-section h2 {
+    font-size: 40px;
+}
+	.mySwiper .swiper-slide-active{
+		width: 100% !important;
+	}
+	.food-img {
+    width: 40%;
+    }
+    .food-review {
+    grid-row-gap: 20px;
+    justify-content: space-around;
+    }
+}
+@media(max-width: 455px){
+	.img-fluid {
+    max-width: 70%;
+}
+.navbar-toggler {
+    font-size: 1.2rem;
+}

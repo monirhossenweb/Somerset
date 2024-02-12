@@ -1,0 +1,444 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+.swiper-pagination-bullet-active{
+	width: 40px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+
+
+.container{
+  margin: 0px auto;
+}
+
+/*====logo-section=====*/
+.header-logo-section{
+	border-top: 5px solid #8C6D44;
+}
+.logo{
+   text-align: center;
+   padding-top: 27px;
+   padding-bottom: 15px;
+}
+/*====logo-section-end=====*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #8C6D44;
+}
+
+.mobile-logo{
+	display: none;
+}
+
+.navbar-expand-lg .offcanvas-body{
+	justify-content: center;
+}
+
+.navbar-nav{
+	gap:30px;
+}
+
+
+/*====end-nav-section=======*/
+.banner-image-section{
+	background-image: url(img/discover-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 525px;
+}
+.banner-section{
+	padding-bottom: 80px;
+}
+/*====end-banner===*/
+.discover-section{
+	margin-top: -150px;
+	padding-bottom: 80px;
+}
+
+.discover-title{
+    position: relative;
+    width: fit-content;
+    margin: 0px;
+    padding: 0;
+}
+
+.discover-title:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #8C6D44;
+    left: 0;
+}
+.discover-section h2{
+	font-family: Avenir;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 66px;
+	letter-spacing: 0.13em;
+	text-align: left;
+	color: #4E4E4E;
+}
+.discover-box{
+	width: 30%;
+}
+.discover-content-wrap{
+	position: relative;
+}
+.discover{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;		
+}
+.discover-box h4{
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: 0.13em;
+	text-align: left;
+	color: #4E4E4E;
+	margin: 0;
+	padding-top: 15px;
+}
+.discover-box-one h4{
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: 0.13em;
+	text-align: left;
+	color: #4E4E4E;
+	margin: 0;
+	padding-top: 120px;
+}
+.discover-box-three h4{
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: 0.13em;
+	text-align: left;
+	color: #4E4E4E;
+	margin: 0;
+	padding-top: 30px;
+}
+.btn-link {
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+    color: #8C6D44;
+    padding: 0;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.
+/*====hover-img=====*/
+
+.discover-box button img{
+	margin-left: 10px;
+}
+
+.discover-content-wrap{
+	width: 100%;
+	height: 430px;
+	background-size: cover;
+	background-position: center center;
+	border-radius: 10px; 
+}
+.discover-box-one{
+	position: relative;
+}
+
+.discover-content{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgb(140 109 68 / 82%);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.6s;
+    padding: 20px;border-radius: 10px; 
+	color: #FFF;
+	cursor: pointer;
+}
+.discover-content:hover{
+	opacity: 1;
+}
+.discover-content h5{
+	font-size: 25px;
+	color: #FFF;
+}
+
+/*==end-discover====*/
+
+.food-img{
+	width: 23%;
+}
+.food-review{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 9;
+}
+.food-review-section{
+	position: relative;
+}
+
+.food-review-section:before {
+    content: '';
+    background-image: url(img/instragram-banner-bg.png);
+    position: absolute;
+    width: 100%;
+    height: 290px;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.food-review-section h4{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32.78px;
+	color: #4E4E4E;
+	letter-spacing: 13%;
+}
+.instragram-banner-section{
+	padding-bottom: 60px;
+}
+.checking-insta{
+	text-align: center;
+    padding: 50px 20px 80px 20px;
+}
+.checking-insta .btn-link {
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+    color: #8C6D44;
+    padding: 0;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    border: 2px solid #8C6D44
+}
+
+/*====end-food-review-section====*/
+
+.footer-section{
+	padding-top: 60px;
+}
+.footer{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footar-logo{
+	width: 22%;
+	height: 45px;
+}
+.footar-logo p{
+	font-size: 14px;
+	padding-top: 20px;
+}
+.footar-logo ul{
+	padding: 0px;
+}
+.footar-logo ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0px 40px 0px 0px;
+	font-size: 20px;
+}
+.fa-brands{
+	color: #8C6D44;
+}
+.footer-about{
+	width: 18%;
+	padding-left: 25px;
+}
+.footer-about ul li{
+	list-style: none;
+	font-family: Avenir;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	color: #4E4E4E;
+	padding: 8px;
+}
+.footer-contact{
+	width: 15%;
+}
+.footer-contact ul li{
+	list-style: none;
+	font-family: Avenir;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #4E4E4E;
+	padding: 8px;
+}
+.company-logo{
+	width: 42%;
+	text-align: right;
+}
+
+.end-footer-section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.end-footer{
+	width: 50%;
+}
+.end-footer p{
+	font-family: Avenir;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+
+}
+.end-footer h6{
+	text-align: right;
+	font-family: Avenir;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: right;
+}
+.end-footer-section-1{
+	border-bottom: 5px solid #8C6D44;
+}
+
+
+/*====swiper-slider===*/
+.whats-on{
+	padding-bottom: 25px;
+
+}
+.whats-on h3{
+	font-family: Avenir;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 66px;
+	letter-spacing: 0.13em;
+	text-align: left;
+	color:rgba(78, 78, 78, 1);
+
+}
+.whats-on{
+	position: relative;
+}
+.whats-on h3:before{
+	content: '';
+    width: 20%;
+    background: #765e04;
+    height: 2px;
+    top: 70px;
+    position: absolute;
+}
+.what-on-section {
+    position: relative;
+    padding-bottom: 80px;
+}
+.slider-content {
+    padding: 20px 0px 0px 20px;
+}
+.category_name{
+	color: #8C6D44;
+	font-family: Avenir;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.56px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.post-title{
+	color: #4E4E4E;
+	font-family: Avenir;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 160%; 
+	padding-bottom: 10px;
+}
+.short_details{
+	color: #4E4E4E;
+	font-family: Avenir;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 350;
+	line-height: 160%;
+	padding-bottom: 15px;
+}
+.post_button a{
+    text-decoration: none;
+    color: #8C6D44;
+	font-family: Avenir;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+}
+.post_button  img{
+	margin-left: 10px;
+}
+
+.mySwiper .swiper-slide-active{
+	width: 40% !important;
+}
+.mySwiper .slider-image img{
+	width: 100%;
+}
+.mySwiper .swiper-slide-active .slider-content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(84 71 71 / 8%);
+} 
+.mySwiper .swiper-slide-active .post-title{
+	color: #fff;
+	font-weight: 400;
+}
+.mySwiper .swiper-slide-active .category_name,
+ .mySwiper .swiper-slide-active .short_details{
+ 	color:#ffffff9e;
+ }
+ .mySwiper .swiper-slide-active .slider-content{
+ 	padding: 0px 0 15px 20px;
+ }
+
+
+
+ 
